@@ -12,6 +12,7 @@ class TestAdd
         else
         {
           System.out.println("Testcase Failed");
+          throw new ArithmeticException("Incorrect summation of numbers");
         }
     }
 }
