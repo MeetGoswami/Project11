@@ -1,6 +1,6 @@
 class Add
 {
-  public void addNum(int x,int y)
+  public int addNum(int x,int y)
   {
     return (x+y);
   }
