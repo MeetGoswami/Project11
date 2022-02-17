@@ -16,7 +16,7 @@ agent any
         steps{
             sh "chmod +x TestAdd.java"
             sh "javac TestAdd.java"
-            sh "java TestAdd"
+            sh "java -ea TestAdd"
         }
     }
 }
