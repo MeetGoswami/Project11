@@ -4,7 +4,7 @@ class TestAdd
     public static void main(String args[])
     {
         Add addObj=new Add();
-        int sum=addObj.addNum(10,20);
+        int sum=addObj.addNum(10,30);
         if(sum==30)
         {
           System.out.println("Testcase Passed");
