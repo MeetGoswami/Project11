@@ -5,6 +5,6 @@ class TestAdd
     {
         Add addObj=new Add();
         int sum=addObj.addNum(10,30);
-        assert (sum==40) : sum+"!=30";
+        assert (sum==30) : sum+"!=30";
     }
 }
